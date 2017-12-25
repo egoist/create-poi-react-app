@@ -1,6 +1,6 @@
 {
   "name": "create-poi-react-app",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Create a React app which uses Poi.",
   "repository": {
     "url": "egoist/create-poi-react-app",
