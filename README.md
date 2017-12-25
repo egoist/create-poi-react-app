@@ -41,7 +41,7 @@ Folder structure:
 └── yarn.lock
 ```
 
-Yeah it's exactly the same as a create-react-app project but with an extra [poi.config.js](./poi.config.js).
+Yeah it's exactly the same as a create-react-app project but with an extra [poi.config.js](./template/poi.config.js).
 
 ### `yarn dev`
 
