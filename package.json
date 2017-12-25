@@ -1,0 +1,35 @@
+{
+  "name": "create-poi-react-app",
+  "version": "0.0.0",
+  "description": "Create a React app which uses Poi.",
+  "repository": {
+    "url": "egoist/create-poi-react-app",
+    "type": "git"
+  },
+  "bin": "cli.js",
+  "files": [
+    "sao.js",
+    "cli.js",
+    "template"
+  ],
+  "scripts": {
+    "test": "npm run lint && npm run ava",
+    "lint": "xo",
+    "ava": "ava test/test.js"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cac": "^4.0.0",
+    "chalk": "^2.3.0",
+    "sao": "^0.22.11"
+  },
+  "devDependencies": {
+    "ava": "^0.24.0",
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem"
+  }
+}

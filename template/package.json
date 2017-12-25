@@ -1,0 +1,20 @@
+{
+  "name": "<%= _.folderName %>",
+  "private": true,
+  "scripts": {
+    "dev": "poi",
+    "build": "poi build",
+    "test": "tyu"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  },
+  "devDependencies": {
+    "babel-preset-react-app": "^3.1.0",
+    "poi": "^9.6.4",
+    "poi-preset-react": "^9.2.1",
+    "poi-preset-sw-precache": "^1.0.0",
+    "tyu": "^1.0.4"
+  }
+}
