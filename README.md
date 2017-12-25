@@ -49,7 +49,7 @@ Starts development server.
 
 ### `yarn build`
 
-Builds your to `./dist` folder.
+Builds your app to `./dist` folder.
 
 ### `yarn test`
 
