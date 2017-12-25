@@ -6,7 +6,7 @@ const chalk = require('chalk')
 
 const cli = cac()
 
-cli.command('*', 'Create a React app', (input, flags) => {
+cli.command('*', 'Create a React app', input => {
   if (input.length === 0) {
     return cli.showHelp()
   }
