@@ -20,6 +20,8 @@ yarn create poi-react-app my-app
 npx create-poi-react-app my-app
 ```
 
+Check out the auto deployed website of this project on Netlify: https://create-poi-react-app.egoist.moe
+
 ## Usage
 
 Folder structure:
