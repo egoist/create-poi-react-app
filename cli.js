@@ -3,6 +3,7 @@ const path = require('path')
 const cac = require('cac')
 const sao = require('sao')
 const chalk = require('chalk')
+const update = require('update-notifier')
 
 const cli = cac()
 
@@ -18,5 +19,7 @@ cli.command('*', 'Create a React app', input => {
     targetPath
   })
 })
+
+update({ pkg: cli.pkg }).notify()
 
 cli.parse()
