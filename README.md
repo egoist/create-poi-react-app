@@ -12,6 +12,8 @@ The `create-react-app` that you're familiar with but uses [Poi](https://github.c
 ```bash
 yarn global add create-poi-react-app
 create-poi-react-app my-app
+# Or use the shorter alias
+cpra my-app
 
 # Or use `yarn create` or `npx`
 yarn create poi-react-app my-app

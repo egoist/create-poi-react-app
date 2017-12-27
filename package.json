@@ -6,7 +6,10 @@
     "url": "egoist/create-poi-react-app",
     "type": "git"
   },
-  "bin": "cli.js",
+  "bin": {
+    "create-poi-react-app": "cli.js",
+    "cpra": "cli.js"
+  },
   "files": [
     "sao.js",
     "cli.js",
