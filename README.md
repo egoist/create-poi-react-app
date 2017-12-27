@@ -40,8 +40,7 @@ Folder structure:
 │   ├── App.test.js
 │   ├── index.css
 │   ├── index.js
-│   ├── logo.svg
-│   └── registerServiceWorker.js
+│   └── logo.svg
 └── yarn.lock
 ```
 
